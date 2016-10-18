@@ -15,6 +15,7 @@
 		734337411DB5B7E3002B23ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7343373F1DB5B7E3002B23ED /* LaunchScreen.storyboard */; };
 		7343374C1DB5B7E3002B23ED /* WBCustomAdViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343374B1DB5B7E3002B23ED /* WBCustomAdViewTests.m */; };
 		734337571DB5B7E3002B23ED /* WBCustomAdViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 734337561DB5B7E3002B23ED /* WBCustomAdViewUITests.m */; };
+		734337671DB5B83B002B23ED /* WBAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 734337661DB5B83B002B23ED /* WBAdView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		734337521DB5B7E3002B23ED /* WBCustomAdViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBCustomAdViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		734337561DB5B7E3002B23ED /* WBCustomAdViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBCustomAdViewUITests.m; sourceTree = "<group>"; };
 		734337581DB5B7E3002B23ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734337651DB5B83B002B23ED /* WBAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAdView.h; sourceTree = "<group>"; };
+		734337661DB5B83B002B23ED /* WBAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAdView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		734337301DB5B7E3002B23ED /* WBCustomAdView */ = {
 			isa = PBXGroup;
 			children = (
+				734337641DB5B815002B23ED /* WBAdView */,
 				734337341DB5B7E3002B23ED /* AppDelegate.h */,
 				734337351DB5B7E3002B23ED /* AppDelegate.m */,
 				734337371DB5B7E3002B23ED /* ViewController.h */,
@@ -138,6 +142,15 @@
 				734337581DB5B7E3002B23ED /* Info.plist */,
 			);
 			path = WBCustomAdViewUITests;
+			sourceTree = "<group>";
+		};
+		734337641DB5B815002B23ED /* WBAdView */ = {
+			isa = PBXGroup;
+			children = (
+				734337651DB5B83B002B23ED /* WBAdView.h */,
+				734337661DB5B83B002B23ED /* WBAdView.m */,
+			);
+			path = WBAdView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 			files = (
 				734337391DB5B7E3002B23ED /* ViewController.m in Sources */,
 				734337361DB5B7E3002B23ED /* AppDelegate.m in Sources */,
+				734337671DB5B83B002B23ED /* WBAdView.m in Sources */,
 				734337331DB5B7E3002B23ED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
